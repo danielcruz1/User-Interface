@@ -65,102 +65,44 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.container {
+body {
+	max-width: 1000px;
 	margin: auto;
-	margin-left: 20%;
-	margin-right: 20%;
-	padding: 10px;
-	display: inline-block; 
-	}
+}
+.navigation {
+    margin: 1%;
+    padding: 1%;
+	width: 100%;
+	font-size: 20px;
+}
 
 .navigation a {
-	color: gray;
-	margin: 0 10px;
-	padding: 20px;
 	text-decoration: none;
+	color: gray;
+	padding: 2%;
 }
 
-/*
-.logo {
-	
-}
-*/
-
-body div section {
-	
-	display: inline-block;
-}
-
-.title h1 {
+header h1 {
 	font-size: 50px;
 	margin: 50px;
 	padding: 50px;
 	width: 400px;
+	text-align: center;
 }
 
-.button {
-  display: inline-block;
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  padding: 10px 30px;
-  text-align: center;
-  font-size: 16px;
+.heading {
+	padding: 40px;
 }
 
-.top-image {
+.top-section {
 	display: inline-block;
-	height: 300px;
-	width: 300px;
-  }
+}
 
-  .upper-section {
+.get-started-button {
+	width: 500px;
+	text-align: center;
+}
+
+.circle_image {
 	display: inline-block;
-	padding: 50px;
-		
-  }
-
-  .features {
-	width: 400px;
-	display: inline-block;
-	
-  }
-
-  .about {
-	width: 400px;
-	display: inline-block;
-	
-  }
-
-  .middle-image {
-	height: 50%;
-	width: 100%;
-  }
-
-  .lower-section {
-	display: inline-block;
-	padding: 50px;
-  }
-
-  .services {
-	width: 33%;
-	display: inline-block;
-  }
-
-  .product {
-	width: 33%;
-	display: inline-block;
-	
-  }
-
-  .vision {
-	width: 33%;
-	display: inline-block;
-	
-  }
-
- 
-
-  footer {
-	  text-align: center;
-  }
+}
