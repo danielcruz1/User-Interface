@@ -106,3 +106,56 @@ header h1 {
 .circle_image {
 	display: inline-block;
 }
+
+.upper-section {
+	display: inline-block;
+	padding: 50px;	
+	width: 100%;
+}
+  .features {
+	width: 400px;
+	display: inline-block;	
+  }
+
+.about {
+	width: 400px;
+	display: inline-block;
+}
+
+.image-2 {
+	width: 100%;
+}
+
+.middle-image {
+	width: 100%;
+  }
+
+  .lower-section {
+	display: inline-block;
+	padding: 50px;
+	width: 100%;
+  }
+
+  .services {
+	width: 33%;
+	display: inline-block;
+  }
+
+  .product {
+	width: 33%;
+	display: inline-block;
+  }
+
+  .vision {
+	width: 33%;
+	display: inline-block;
+  }
+
+  .contact {
+	  margin: 10px;
+  }
+
+  footer {
+	  text-align: center;
+  }
+
