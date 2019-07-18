@@ -154,13 +154,16 @@ body {
 .navigation a {
 	text-decoration: none;
 	color: gray;
-	padding: 4.5%;	
+    margin: 2.5%;
+    padding: 0 2%;
+    width: 100%;
 }
 
 .logo {
 	padding-left: 35px;
-	padding-top: 
+	border: 1px solid yellow;
 	
+		
 }
 
 .heading {
@@ -175,7 +178,7 @@ header h1 {
 }
 
 .top-section {
-	display: inline-block;
+	
 	border: 1px solid yellow;
 }
 
